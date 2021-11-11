@@ -33,7 +33,7 @@ export function App() {
     <div className="App">
       <header>
         <h1>
-          Список задач : {todos.length}
+          Список задач: {todos.length}
         </h1>
       </header>
       <ToDoForm onAddTask={handleAddTask} />
